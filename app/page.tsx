@@ -10,7 +10,7 @@ export default function Home() {
         Documents techmart
       </h1>
       <p className="max-w-[600px] text-foreground mb-8 sm:text-base">
-      Techmart adalah aplikasi belanja online khusus untuk produk elektronik yang dirancang untuk memberikan pengalaman belanja yang mudah, aman, dan nyaman bagi pengguna. Aplikasi ini berfokus pada menyediakan berbagai macam produk elektronik mulai dari gadget, perangkat rumah pintar, hingga aksesoris teknologi.
+      Techmart adalah aplikasi belanja online khusus untuk produk elektronik yang dirancang untuk memberikan pengalaman belanja yang mudah, aman, dan nyaman bagi pengguna.
       </p>
       <div className="flex items-center gap-5">
         <Link
