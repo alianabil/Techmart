@@ -29,16 +29,18 @@ export const Documents: Paths[] = [
     heading: "Documents",
   },
   {
-    title: "Desain",
+    title: "Structure",
     href: "/structure",
     items: [
       {
-        title: "wireframe",
+        title: "Deeper",
         href: "/deeper",
-      },
-      {
-        title: "sketsa",
-        href: "/deeper",
+        items : [
+          {
+            title: "Even deeper",
+            href: "/even-deeper",
+          },
+        ]
       },
     ],
   },
