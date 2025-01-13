@@ -29,7 +29,7 @@ export const Documents: Paths[] = [
     heading: "Documents",
   },
   {
-    title: "Structure",
+    title: "Desain",
     href: "/structure",
     items: [
       {
