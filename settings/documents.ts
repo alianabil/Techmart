@@ -29,11 +29,11 @@ export const Documents: Paths[] = [
     heading: "Documents",
   },
   {
-    title: "Structure",
+    title: "Analisis dan desain perangkat lunak",
     href: "/structure",
     items: [
       {
-        title: "Deeper",
+        title: "Business Requirement",
         href: "/deeper",
         items : [
           {
