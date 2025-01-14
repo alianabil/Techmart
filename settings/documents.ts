@@ -75,6 +75,9 @@ export const Documents: Paths[] = [
     ],
   },
   {
+    spacer: true,
+  },
+  {
     title: "Perancangan Desain Antarmuka",
     href: "/perancangan-desain-antarmuka",
     items: [
