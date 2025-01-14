@@ -125,6 +125,22 @@ export const Documents: Paths[] = [
     ],
   },
   {
+    spacer: true,
+  },
+  {
+    title: "Dokumentasi Penggunaan Website",
+    href: "/dokumentasi-penggunaan-website",
+    items: [
+      {
+        title: "Panduan Penggunaan Fitur Utama Dan Alur Sistem",
+        href: "/panduan-penggunaan-fitur",
+      },
+    ],
+  },
+  {
+    spacer: true,
+  },
+  {
     title: "Markup",
     href: "/markup",
     heading: "Components",
