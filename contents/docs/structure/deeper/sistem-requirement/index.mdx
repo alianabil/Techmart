@@ -1,0 +1,49 @@
+---
+title: ## System Requirement
+---
+
+## Sistem Operasi 
+Aplikasi dapat berjalan di berbagai sistem operasi untuk mendukung fleksibilitas pengembangan dan implementasi :
+### Windows
+Penggunaan Windows 10 Pro atau versi lebih baru sangat dianjurkan untuk pengembangan lokal. Sistem ini mendukung berbagai alat pengembangan seperti Visual Studio dan IIS (Internet Information Services) untuk hosting aplikasi, memungkinkan integrasi yang lebih baik dengan ekosistem Microsoft.
+
+### macOS
+Bagi pengembang yang menggunakan perangkat Apple, disarankan untuk menggunakan macOS versi Catalina atau yang lebih baru. Sistem ini kompatibel dengan Xcode, yang diperlukan untuk pengembangan aplikasi berbasis iOS, serta memberikan pengalaman pengguna yang optimal.
+
+### Linux
+Distribusi Linux seperti Ubuntu 20.04 LTS direkomendasikan untuk server produksi. Linux dikenal karena stabilitas dan performanya yang tinggi, serta dukungan jangka panjang. Ini juga kompatibel dengan berbagai server stack seperti Apache dan Nginx, serta mendukung penggunaan Docker untuk containerization.
+
+## Basis Data 
+Pemilihan basis data harus mempertimbangkan skala aplikasi dan jenis data yang akan dikelola :
+### MySQL
+MySQL adalah pilihan yang tepat untuk aplikasi yang memerlukan struktur data terorganisir. Basis data ini mendukung transaksi dan relasi kompleks antar tabel, yang sangat penting untuk pengelolaan data pengguna, produk, kategori, pesanan, dan pembayaran.
+
+### MongoDB
+Sebagai basis data NoSQL, MongoDB ideal untuk menyimpan data yang tidak memiliki struktur tetap. Ini sangat berguna untuk menyimpan log aktivitas pengguna atau metadata produk, serta memungkinkan pencarian produk dengan filter yang lebih fleksibel.
+
+## Framework
+Framework yang dipilih akan mempercepat proses pengembangan dan memberikan struktur yang diperlukan:
+### PHP
+Framework PHP yang berbasis pada arsitektur MVC (Model-View-Controller) sangat cocok untuk membangun backend aplikasi e-commerce. Fitur-fitur seperti autentikasi pengguna, manajemen API, dan pengelolaan basis data akan mempermudah pengembangan dan pemeliharaan aplikasi.
+
+### JavaScript
+Penggunaan library JavaScript untuk frontend memungkinkan pembuatan antarmuka pengguna yang interaktif dan responsif. Ini akan meningkatkan pengalaman pengguna dengan fitur-fitur seperti pencarian instan dan navigasi yang lancar.
+
+## Kebutuhan Perangkat Keras (Hardware Requirements)
+### Minimum RAM
+**8GB**             
+Kapasitas ini cukup untuk menjalankan server atau lingkungan pengembangan yang mengoperasikan basis data, server aplikasi, dan server web secara bersamaan. Ini memungkinkan penanganan hingga 500 permintaan pengguna per detik.
+**16GB atau lebih** 
+Disarankan untuk lingkungan yang lebih kompleks, seperti server yang menjalankan banyak proses atau menggunakan virtualisasi (Docker/Kubernetes).
+
+### Penyimpanan
+**500GB HDD (minimum)**     
+Kapasitas ini memadai untuk menyimpan file aplikasi, log sistem, dan basis data dengan ukuran sedang, seperti hingga 100.000 entri produk.
+**500GB SSD (disarankan)**  
+Penggunaan SSD akan meningkatkan kecepatan baca/tulis data, yang sangat penting untuk server produksi dengan banyak pengguna aktif.
+
+## Jaringan
+**Kecepatan Jaringan**  
+Koneksi minimal 1 Gbps diperlukan untuk server lokal agar dapat menangani lalu lintas data yang tinggi.
+**Bandwidth**          
+Harus mampu mendukung setidaknya 500 pengguna aktif dengan rata-rata transfer data 100 KB per permintaan, memastikan pengalaman pengguna yang lancar.
