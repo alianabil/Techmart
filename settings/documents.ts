@@ -89,6 +89,18 @@ export const Documents: Paths[] = [
             title: "Sketsa Awal",
             href: "/sketsa-awal",
           },
+          {
+            title: "Wireframe",
+            href: "/wireframe",
+          },
+          {
+            title: "Userflow",
+            href: "/userflow",
+          },
+          {
+            title: "prototipe",
+            href: "/prototype",
+          },
         ],
       },
     ],
