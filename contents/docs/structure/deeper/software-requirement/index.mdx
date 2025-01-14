@@ -1,0 +1,56 @@
+---
+title: ## software Requirement
+---
+
+## Kebutuhan Fungsional
+### 1. Manajemen Pengguna
+Sistem harus memungkinkan pengguna untuk mendaftar akun menggunakan alamat email atau akun media sosial. Pengguna harus dapat melakukan login dan logout dengan mudah. Selain itu, pengguna dapat mengelola profil mereka, termasuk mengubah nama, alamat, dan informasi kontak. Sistem juga harus mendukung berbagai peran pengguna, seperti admin, penjual, dan pembeli, dengan hak akses yang sesuai untuk masing-masing peran.
+
+### 2. Manajemen Produk
+Penjual harus memiliki kemampuan untuk menambahkan, mengedit, dan menghapus produk dari katalog. Sistem harus menampilkan daftar produk dengan informasi lengkap, termasuk gambar, deskripsi, harga, stok, dan alamat pengiriman produk. Ini akan memudahkan pengguna dalam memilih produk yang diinginkan.
+
+### 3. Fitur Pencarian & Filter
+Pengguna harus dapat mencari produk dengan menggunakan kata kunci tertentu. Selain itu, sistem harus menyediakan fitur filter untuk menyaring produk berdasarkan kategori, harga, dan rating. Pengguna juga harus dapat mengurutkan hasil pencarian berdasarkan kriteria seperti harga terendah atau produk terbaru.
+
+### 4. Proses Keranjang & Checkout
+Pengguna dapat menambahkan produk ke keranjang belanja. Sistem harus secara otomatis memperbarui total harga saat produk ditambahkan atau dihapus dari keranjang. Pengguna harus dapat melakukan proses checkout dengan berbagai metode pembayaran, termasuk transfer bank, e-wallet, dan kartu kredit. Selain itu, pengguna harus dapat memasukkan alamat pengiriman dengan mudah.
+
+### 5. Manajemen Pesanan
+Sistem harus memungkinkan pengguna untuk melihat daftar pesanan mereka dan mencatat status pesanan, seperti menunggu pembayaran, dalam proses, dikirim, selesai, atau dibatalkan. Admin harus memiliki kemampuan untuk mengelola pesanan, memvalidasi pembayaran, dan mengatur pengiriman produk.
+
+### 6. Sistem Ulasan & Rating
+Sistem harus memungkinkan pengguna untuk memberikan ulasan dan rating pada produk yang telah mereka beli. Rata-rata rating dan ulasan harus ditampilkan di halaman produk untuk membantu pengguna lain dalam membuat keputusan pembelian.
+
+### 7. Notifikasi
+Sistem harus mengirimkan notifikasi kepada pengguna melalui email, aplikasi, atau push notifications mengenai status pesanan, promosi, atau pengingat penting lainnya.
+
+### 8. Laporan untuk Admin
+Admin harus dapat mengakses laporan penjualan, jumlah pengguna aktif, dan transaksi yang terjadi. Selain itu, admin harus dapat mengelola promosi, termasuk diskon dan voucher, untuk meningkatkan penjualan.
+
+## Kebutuhan Non-Fungsional
+### 1. Kinerja
+Sistem harus mampu menangani hingga 10.000 pengguna aktif secara bersamaan. Waktu respon untuk memuat halaman tidak boleh lebih dari 3 detik untuk memastikan pengalaman pengguna yang baik.
+
+### 2. Skalabilitas
+Sistem harus dirancang agar mudah ditingkatkan untuk mendukung pertumbuhan jumlah pengguna dan volume transaksi di masa depan.
+
+### 3. Keamanan
+Sistem harus menerapkan mekanisme otentikasi dua faktor (2FA) untuk meningkatkan keamanan akun pengguna. Selain itu, semua transaksi pembayaran harus mematuhi standar keamanan PCI DSS untuk melindungi informasi kartu kredit pengguna.
+
+### 4. Ketersediaan
+Sistem harus memiliki tingkat ketersediaan minimal 99.9% uptime. Harus ada mekanisme backup otomatis untuk data aplikasi guna mencegah kehilangan data.
+
+### 5. Kemudahan Penggunaan
+Aplikasi harus dirancang dengan antarmuka yang intuitif dan mudah digunakan. Sistem harus mendukung berbagai perangkat, termasuk desktop, tablet, dan smartphone, untuk memberikan pengalaman pengguna yang konsisten.
+
+### 6. Pemeliharaan
+Kode sumber harus ditulis dengan standar yang baik untuk memudahkan pemeliharaan dan pembaruan di masa mendatang. Dokumentasi teknis dan panduan pengguna harus disediakan untuk membantu pengembang dan pengguna dalam memahami sistem.
+
+### 7. Validasi Pembayaran
+Sistem harus memvalidasi detail kartu kredit sebelum memproses transaksi untuk memastikan keamanan dan keakuratan pembayaran.
+
+### 8. Konfirmasi Pesanan
+Setelah pembelian selesai, sistem harus mengirimkan konfirmasi melalui email dan nomor telepon kepada pelanggan, memberikan rincian tentang produk yang dipesan.
+
+### 9. Kompatibilitas
+Sistem harus kompatibel dengan berbagai sistem operasi, termasuk Windows, macOS, dan Linux, untuk memastikan aksesibilitas bagi semua pengguna.
