@@ -105,6 +105,26 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
+    title: "Pengembangan Aplikasi",
+    href: "/pengembangan-aplikasi",
+    items: [
+      {
+        title: "Metode LDLC",
+        href: "/metode-LDLC",
+        items: [
+          {
+            title: "Analisis Kebutuhan",
+            href: "/analisis-kebutuhan",
+          },
+          {
+            title: "Pembuatan Diagram UML",
+            href: "/pembuatan-diagram-UML",
+          },
+        ],
+      },
+    ],
+  },
+  {
     title: "Markup",
     href: "/markup",
     heading: "Components",
