@@ -42,7 +42,7 @@ export const Documents: Paths[] = [
           },
           {
             title: "Stakeholder",
-            href: "/Stakeholder",
+            href: "/stakeholder",
           },
         ]
       },
