@@ -2,21 +2,17 @@ import { Paths } from "@/lib/pageroutes";
 
 export const Documents: Paths[] = [
   {
-    title: "Introduction",
-    href: "/introduction",
+    title: "Pendahuluan",
+    href: "/pendahuluan",
     heading: "Getting started",
     items: [
       {
-        title: "Installation",
+        title: "Teknologi Yang Digunakan",
         href: "/installation",
       },
       {
-        title: "Setup",
-        href: "/setup",
-      },
-      {
-        title: "Changelog",
-        href: "/changelog",
+        title: "Keterkaitan Dengan Mata Kuliah",
+        href: "/keterkaitan-dengan-mata-kuliah",
       },
     ],
   },
