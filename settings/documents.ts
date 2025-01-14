@@ -33,12 +33,16 @@ export const Documents: Paths[] = [
     href: "/structure",
     items: [
       {
-        title: "Business Requirement",
+        title: "Analisis Kebutuhan",
         href: "/deeper",
         items : [
           {
-            title: "Even deeper",
+            title: "Business Requirement",
             href: "/even-deeper",
+          },
+          {
+            title: "Stakeholder",
+            href: "/Stakeholder",
           },
         ]
       },
