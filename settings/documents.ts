@@ -8,7 +8,7 @@ export const Documents: Paths[] = [
     items: [
       {
         title: "Teknologi Yang Digunakan",
-        href: "/installation",
+        href: "/teknologi-yang-digunakan",
       },
       {
         title: "Keterkaitan Dengan Mata Kuliah",
