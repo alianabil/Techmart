@@ -52,7 +52,7 @@ export const Documents: Paths[] = [
             title: "Software Requirement",
             href: "/software-requirement",
           },
-        ]
+        ],
       },
       {
         title: "Diagram",
@@ -70,23 +70,23 @@ export const Documents: Paths[] = [
             title: "Flow Chart",
             href: "/FlowChart",
           },
-        ]
+        ],
       },
     ],
   },
   {
     title: "Perancangan Desain Antarmuka",
     href: "/perancangan-desain-antarmuka",
-    items:[
+    items: [
       {
         title: "Dokumen Desain",
         href: "/dokumen-desain",
-        items:[
+        items: [
           {
             title: "Sketsa Awal",
             href: "/sketsa-awal",
           },
-        ]
+        ],
       },
     ],
   },
