@@ -68,7 +68,7 @@ export const Documents: Paths[] = [
           },
           {
             title: "Flow Chart",
-            href: "/Flow-Chart",
+            href: "/FlowChart",
           },
         ]
       },
