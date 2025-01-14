@@ -38,19 +38,19 @@ export const Documents: Paths[] = [
         items : [
           {
             title: "Business Requirement",
-            href: "/even-deeper",
+            href: "/business-requirement",
           },
           {
             title: "Stakeholder Requirement",
-            href: "/stakeholder",
+            href: "/stakeholder-requirement",
           },
           {
             title: "System Requirement",
-            href: "/sistem",
+            href: "/sistem-requirement",
           },
           {
             title: "Software Requirement",
-            href: "/software",
+            href: "/software-requirement",
           },
         ]
       },
