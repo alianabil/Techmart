@@ -41,8 +41,16 @@ export const Documents: Paths[] = [
             href: "/even-deeper",
           },
           {
-            title: "Stakeholder",
+            title: "Stakeholder Requirement",
             href: "/stakeholder",
+          },
+          {
+            title: "System Requirement",
+            href: "/sistem",
+          },
+          {
+            title: "Software Requirement",
+            href: "/software",
           },
         ]
       },
