@@ -141,27 +141,6 @@ export const Documents: Paths[] = [
     spacer: true,
   },
   {
-    title: "Metode Pengembangan Perangkat Lunak",
-    href: "/metode-pengembangan-perangkat-lunak",
-    items: [
-      {
-        title: "Penjelasan Metode Yang Digunakan",
-        href: "/penjelasan-metode-yang-digunakan",
-      },
-      {
-        title: "Alasan pemilihan metode",
-        href: "/alasan-pemilihan-metode",
-      },
-      {
-        title: "Implementasi setiap tahapan metode dalam proyek",
-        href: "/implementasi-setiap-tahapan-metode"
-      },
-    ],
-  },
-  {
-    spacer: true,
-  },
-  {
     title: "Markup",
     href: "/markup",
     heading: "Components",
