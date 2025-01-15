@@ -142,7 +142,7 @@ export const Documents: Paths[] = [
   },
   {
     title: "Metode Pengembangan Perangkat Lunak",
-    href: "/metode-mengembangan-perangkat-lunak",
+    href: "/metode-pengembangan-perangkat-lunak",
     items: [
       {
         title: "Penjelasan Metode Yang Digunakan",
