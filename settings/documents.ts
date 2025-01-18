@@ -90,10 +90,6 @@ export const Documents: Paths[] = [
             href: "/wireframe",
           },
           {
-            title: "Userflow",
-            href: "/userflow",
-          },
-          {
             title: "prototipe",
             href: "/prototype",
           },
